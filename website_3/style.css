@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+li,
+ol {
+  color: #1098ad;
+}
+
+h1,
+h2 {
+  color: blue;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 30px;
+}
+
+.main-header {
+  background-color: #b35050;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+}
+
+.pos-header {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+
+  position: relative;
+}
+
+header {
+  background-color: #3cab47;
+}
+
+p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,
+ol {
+  color: darkred;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+.author {
+  font-style: italic;
+}
+
+#copyright {
+  color: brown;
+  font-size: 16px;
+}
+
+.lasttitle {
+  color: rgb(36, 22, 128);
+  text-align: center;
+  font-size: 26px;
+}
+
+.related {
+  list-style: none;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* body {
+  background-color: ;
+} */
+
+/* FLOATS */
+.writer-img {
+  float: left;
+}
+
+.writer {
+  /* padding-left: 100px; */
+  padding-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  background-color: green;
+  width: 900px;
+  float: left;
+}
+
+aside {
+  background-color: red;
+  width: 300px;
+  float: right;
+}
+
+footer {
+  background-color: yellow;
+}
